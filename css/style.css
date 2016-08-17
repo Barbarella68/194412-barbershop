@@ -1,5 +1,10 @@
 body {
-    font-family: "PT Sans Narrow";
+    font-family: "PT Sans Narrow", "Arial, sans-serif"
+	font-size: 14px;
+	color: #000000;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
 }	
  h1{
     font-size: 30px;
@@ -11,4 +16,6 @@ h2{
 	color: #000000;
 	line-height: 30px;
 }
-
+ul{
+    list-style: none;
+}
