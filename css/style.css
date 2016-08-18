@@ -1,26 +1,26 @@
 body {
-    margin: 0;
-	padding: 0;
-    font-family: "PT Sans Narrow", "Arial, sans-serif"
-	font-size: 14px;
-	color: #000000;
-	line-height: 24px;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans Narrow", "Arial, sans-serif"; 
+  font-size: 14px;
+  color: #000000;
+  line-height: 24px;
 }
 .main-header { 
-    margin-bottom: 60px;
+  margin-bottom: 60px;
     /*background-image: url("../img/background_head.png"); 
 	width: 1200px; 
 	height: 72px; */
 }  
 .clearfix::after {
-    content: "";
-	display: table;
-	clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 .container {
-    width: 940px;
-	margin: 0 auto;
-	padding: 0 10px;    
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;    
 }
 /*
 .index-logo{
@@ -30,70 +30,86 @@ body {
 	margin-top: 15px;
 }   */
 .main-navigation {
-    float: left;
-    width: 780px;
+  float: left;
+  width: 780px;
 }
 .user-block {
-    float: right;
-    width: 140px;
+  float: right;
+  width: 140px;
 }
 .page-features {
-    float: left;
-	width: 940px;
-	height: 120px;
-	margin-bottom: 50px;
+  float: left;
+  width: 940px;
+  height: 120px;
+  margin-bottom: 50px;
 }
 h1{
-    font-size: 30px;
-	line-height: 42px;
+  font-size: 30px;
+  line-height: 42px;
 }
 .catalog {
-    margin-top: 50px;
-    margin-bottom: 40px;
+  margin-top: 50px;
+  margin-bottom: 40px;
 }  
 .catalog-filter {
-    float: left;
-	width: 220px;
+  float: left;
+  width: 220px;
 }
 h2{
-    font-size: 24px;
-	line-height: 30px;
+  font-size: 24px;
+  line-height: 30px;
 }
 ul{
-    list-style: none;
+  list-style: none;
 }
 .catalog-list {
-    float: right;
-	width: 700px;
+  float: right;
+  width: 700px;
 }
 .item-cell {
-    display: inline-block;
-    padding: 20px;
-	margin-bottom: 20px;
+  display: inline-block;
+  padding: 20px;
+  margin-bottom: 20px;
 }  
 .pageswitch {
-    width: 195px;
-	padding-left: 20px;
-	margin-bottom: 45px;
+  width: 195px;
+  padding-left: 20px;
+  margin-bottom: 45px;
+}
+.item-gallery {
+  float: left;
+  width: 460px;
+}
+.main-img {
+  width: 460px;
+  /*height: 500px; */
+}
+.box-img {
+  width: 460px;
+  /* height: 150px;  */
+}
+.item-about {
+  float:right;
+  width: 400px;
+  padding-left: 80px;
 }
 .main-footer {
-    margin-top: 45px;
-	padding-top: 60px;
-	padding-bottom: 40px;
+  margin-top: 45px;
+  padding-top: 60px;
+  padding-bottom: 40px;
 }
 .footer-contacts {
-    float: left;
-	width: 320;
-	margin-right: 60px;
+  float: left;
+  width: 320;
+  margin-right: 60px;
 }
 .footer-social {
-    float: left;
-    width: 180px;
-    	
+  float: left;
+  width: 180px;
 }
 .footer-copyright {
-    float: right;
-	width: 180px;
+  float: right;
+  width: 180px;
 }
 
  
